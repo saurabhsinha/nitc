@@ -1,11 +1,191 @@
+/**
+*.@css written for the main page nitc.ac.iin
+* @author saurabh kumar <saurabh.nitc10@gmail.com>
+* @copyright Copyright (c) 2012,saurabh kumar
+* @license http://www.gnu.org/licenses/gpl.html GNU General Public License 
+*/
+
+
 *{
 	padding:0px;
 	margin:0px;
 }
-#header {
+body {
+	background-color: white;
+	color: #6C6C6C;
+	font: normal 62.5% Helvetica, Arial, sans-serif;
+	line-height:1;
+
+}
+.full #header{
+	margin-bottom:0px;
+}
+.full #header .wrap {
+	min-height: 300px;
+	background: none;
+}
+#header .wrap {
+	position: relative;
+	width: 548px;
 	margin: 0 auto;
-	width: 100%;
-	height: auto;
+	padding: 52px 11px 7px 432px;
+	border:1px solid #C3C3C3;
+}
+.full .logo a {
+	left: 45px;
+	top: 53px;
+	width: 320px;
+	height: 291px;
+	border:1px solid #C3C3C3;
+	background: url() no-repeat 0 0;
+}
+.logo a {
+	position: absolute;
+	left: 50px;
+	top: 79px;
+	width: 314px;
+	height: 74px;
+}
+.nav{
+	background: #BB4343;
+	height:38px;
+
+}
+.nav ul {
+	float: left;
+	margin:0;
+}
+.nav li {
+	margin: 6px 0 13px 27px;
+}
+.nav li a {
+	color: white;
+	font-weight: bold;
+	font-size:15px;
+}
+#wrap-nav li{
+	float:left;
+	list-style:none;
+}
+.header li a {
+	text-decoration: none;
+}
+#wrap-nav{
+	width:993px;
+	margin:0 auto;
+
+}
+#search {
+	float: right;
+	position: relative;
+	top: -21px;
+	left: 2px;
+
+	margin-bottom: 12px;
+	border: 1px solid #C3C3C3;
+	border-bottom-color: #C3C3C3;
+	border-image: initial;
+
+
+}
+#search p {
+	margin-bottom: 0;
+	padding: 5px 5px 5px 7px;
+
+
+}
+#search p * {
+	vertical-align: middle;
+}
+#search input{
+	outline:none;
+	border:none;
+}
+#search #searchtext {
+	width: 206px !important;
+	min-height: 23px !important;
+	padding: 2px 5px 2px;
+	background:#ECF4FC;
+	border-top: 1px solid #C3C3C3;
+}
+#utility-nav {
+	width: 215px;
+	margin: -21px 0 0;
+	height:105px;
+}
+#action-nav{
+	border:1px solid #C3C3C3;
+	height:39px;
+	clear:both;
+}
+#content {
+	padding-bottom: 122px;
+	background: transparent url();
+}
+#content .wrap {
+	position: relative;
+	top: 122px;
+	width: 991px;
+	margin: 0 auto;
+	top:0;
+}
+#sub-wrap {
+	width: 375px;
+	padding-top: 6px;
+	background: none;
+	border:1px solid #C3C3C3;
+	float: left;
+	position: relative;
+	left: 0px;
+	min-height:300px;
+
+}
+#main-wrap {
+	width: 557px;
+	padding-left: 8px;
+	float: right;
+	padding: 0 0 0 12px;
+	min-height:300px;
+	border:1px solid #C3C3C3;
+}
+#sub{
+	margin-top:0;
+	min-height:300px;
+	border:1px solid #C3C3C3;
+}
+ #main {
+	position: relative;
+	z-index: 10;
+	width: 535px;
+	min-height: 0;
+	margin-top: -170px;
+	padding: 11px 11px 0;
+	min-height:470px;
+	border-color: #D6D3C5;
+	border:1px solid #C3C3C3;
+}
+#main-topic{
+	position:relative;
+	width:525px;
+	overflow-x:hidden;
+	overflow-y:hidden;
+	border:1px solid #C3C3C3;
+}
+#main-topic-sub{
+	position: relative;
+	padding-top: 360px;
+	border:1px solid #C3C3C3;
+}
+#slid-show {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height:295px;
+	width:525px;
+	border:1px solid #C3C3C3;
+}
+#header {
+	position:relative;
 }
 #sticky_header{
 	width:100%;
@@ -30,6 +210,7 @@
 	cursor: pointer;
 
 }
+
 #sticky_header .button {
 	position: relative;
 	height: 33px;
