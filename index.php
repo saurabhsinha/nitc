@@ -20,7 +20,7 @@
 								<a href="">About</a>
 							</li>
 							<li class="nav-first">
-								<a href="">Admissions</a>
+								<a href="">Admissions<span class="down"></span></a>
 								<ul class="submenu">
 									<li><a href="">PG</a></li>
 									<li>
