@@ -1,0 +1,59 @@
+/* 
+	LEVEL ONE
+*/
+ul.dropdown a:active{
+	color: #ffa500;
+}
+ul.dropdown li:last-child a{
+	 border-right: none;
+} /* Doesn't work in IE */
+ul.dropdown li.hover,
+ul.dropdown li:hover{
+	background: #1E8C3C;
+	position: relative;
+}
+/* 
+	LEVEL TWO
+*/
+ul.dropdown ul{
+	width: 190px;
+	visibility: hidden;
+	position: absolute;
+	z-index:10000;
+	top: 100%;
+	left: 0;
+}
+ul.dropdown ul li{
+	font-weight: normal;
+	background: #1E2C3C;
+	color: #000;
+	border-bottom: 1px solid #ccc;
+	float: none;
+	height:21px;
+	padding-top:8px;
+}
+ul.dropdown ul li.hover,
+ul.dropdown ul li:hover{
+	background: #1E8C3C;
+}
+             /* IE 6 & 7 Needs Inline Block */
+ul.dropdown ul li a{
+	border-right: none;
+	width: 100%;
+	display: inline-block;
+} 
+
+/* 
+	LEVEL THREE
+*/
+ul.dropdown ul ul li{
+	border-left: 1px solid #ccc;
+}
+ul.dropdown ul ul{
+	left: 100%;
+	top: 0;
+}
+ul.dropdown li:hover > ul
+{
+	visibility: visible;
+}

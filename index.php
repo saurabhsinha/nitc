@@ -1,11 +1,13 @@
 <!DOCTYPE>
-
 <html>
 <head>
 	<title></title>
-	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/dropdown.css" type="text/css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script src="js/slides.jquery.js" type="text/javascript"></script>
 	<script type="text/javascript" src="js/expstickybar.js"></script>
+		<script type="text/javascript" src="js/nitc.js"></script>
 </head>
 <body class="full">
 	<div class="body">
@@ -13,26 +15,40 @@
 			<div id="header">
 				<div id="wrap-nav">
 					<div class="nav">
-						<ul>
-							<li>
+						<ul class="dropdown">
+							<li class="nav-first">
 								<a href="">About</a>
 							</li>
-							<li>
+							<li class="nav-first">
 								<a href="">Admissions</a>
+								<ul class="submenu">
+									<li><a href="">PG</a></li>
+									<li>
+										<a href="">UG</a>
+										<ul>
+											<li><a href="">MCA</a></li>
+											<li><a href="">Mtech</a></li>
+										</ul>
+									</li>
+									<li><a href="">PG</a></li>
+									<li><a href="">PG</a></li>
+									<li><a href="">PG</a></li>
+									<li><a href="">PG</a></li>
+								</ul>
 							</li>
-							<li>
+							<li class="nav-first">
 								<a href="">Academics</a>
 							</li>
-							<li>
+							<li class="nav-first">
 								<a href="">Research</a>
 							</li>
-							<li>
+							<li class="nav-first">
 								<a href="">Campus life</a>
 							</li>
-							<li>
+							<li class="nav-first">
 								<a href="">News</a>
-							</li>
-							<li>
+							</li class="nav-first">
+							<li id="nav-first-search">
 								<form id="search" method="get" action="">
 									<p>
 										<input type="text" placeholder="Search" maxlength="256" id="searchtext" name="searchtext">
@@ -140,8 +156,12 @@
 						<div id="main">
 							<div id="main-topic">
 								<div id="main-topic-sub">
-									<div id="slid-show">
-										<img src="images/img.jpg"/ width="522px" height="287px">
+									<div id="slides">
+										<div class="slides_container">
+											<img src="images/img.jpg"/>
+											<img src="images/img.jpg"/>
+											<img src="images/img.jpg"/>
+										</div>
 									</div>
 									<div id="topic-body">
 										<div class="achievements">
@@ -257,6 +277,7 @@
 				<div id="fullline">
 				</div>
 				<div class="sticky_content">
+
 				</div>
 				<a href="#togglebar"><img/></a>
 			</div>
