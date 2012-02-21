@@ -63,7 +63,8 @@ body {
 	height: 0;
 	border-left: 8px solid transparent;
 	border-right: 8px solid transparent;
-	border-bottom: 8px solid #1E8C3C;
+	border-top: 8px solid #1E8C3C;
+	margin-top:15px;
 }
 ul.submenu li{
 	padding:0 0 0 20px;
