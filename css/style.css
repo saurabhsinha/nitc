@@ -45,7 +45,7 @@ body {
 	height: 74px;
 }
 .nav{
-	background-color: #1E2C3C;
+	background-color: black;
 	height:38px;
 
 }
@@ -136,7 +136,7 @@ ul.dropdown li{
 	clear:both;
 	width:559px;
 	margin-bottom: 8em;
-	background-color: #1E2C3C;
+	background-color: black;
 	margin-left:2px;
 }
 #action-nav li {
@@ -495,7 +495,7 @@ div.teaser {
 }
 #header {
 	position:relative;
-	background-color:#eee;
+	background-color:#EEE;
 }
 #sticky_header{
 	width:100%;

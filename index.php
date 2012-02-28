@@ -24,7 +24,7 @@
 								<ul class="submenu">
 									<li><a href="">PG</a></li>
 									<li>
-										<a href="">UG</a>
+										<a href="">PG</a>
 										<ul>
 											<li><a href="">MCA</a></li>
 											<li><a href="">Mtech</a></li>
